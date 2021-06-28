@@ -10,3 +10,4 @@ In order to run, the Apache server and MySQL services must be running. Afterward
 * covidsite.php - the website itself
 * getstats.sh - downloads the website to scrape information from, runs the parser, then deletes the downloaded website (set to repeat every 30 minutes)
 * parser.py - scrapes data from the downloaded website, updates the database with the updated information
+* sources.txt - websites to download, source of the statistics shown on the website
